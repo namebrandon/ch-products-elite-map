@@ -36,6 +36,8 @@ script
   %define stick.pov.left JS2.B31
 
   %define throttle.btn4 JS1.B4
+//Brandon Change - reclaim Throttle Button 2
+  %define throttle.btn2 JS1.B2
 
   %define throttle.hat1.up JS1.B7
   %define throttle.hat1.right JS1.B6
@@ -225,6 +227,12 @@ script
 //CMS.B127 = throttle.pov.left and not shift and alt;
 //CMS.B128 = throttle.pov.left and shift and alt;
 
+//Brandon - Remap SHIFT+ALT+HAT3 to allow for Throttle Button 2 to be mapped in regular, shift, alt, and shift+alt
+  CMS.B104 = throttle.btn2;
+//  CMS.B108 = throttle.btn2 and shift and not alt; Leaving as Jettison All Cargo [throttle.hat3.down and shift and alt;]
+  CMS.B112 = throttle.btn2 and not shift and alt;
+  CMS.B116 = throttle.btn2 and shift and alt;
+
   toggle(D1) = throttle.hat1.left and not shift and alt;
   toggle(D2) = throttle.hat1.right and not shift and alt;
 
@@ -233,7 +241,7 @@ script
   else
     CMS.A19 = throttle.z.axis;
   endif
-  
+
   if (D2) then
     CMS.A1 = 128;
     CMS.A4 = stick.x.axis;
@@ -241,5 +249,6 @@ script
     CMS.A1 = stick.x.axis;
     CMS.A4 = 128;
   endif
-  
+
 endscript
+

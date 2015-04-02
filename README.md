@@ -102,6 +102,15 @@ With the exception of the PDF all the files contained in this project are text f
 
 ## Changelog
 
+### Versions 2.1.0 BH
+
+Forked Dom's v2.1.0 mappings and made minor modifications to the 'full' mapping layout.
+  * Replaced the mapping of Toggle Flight Assist from '0' key to Right Alt + [ combination in Elite Dangerous.
+  * Added an Elite Dangerous key mapping for 75% Throttle (Right Alt + ])
+  * Removed direct mapping to Throttle Button 2 to '0', and allowed it to be used in ALT / SHIFT configurations.
+	* Throttle Hat 3 (Right / Left / Up) was removed in ALT + SHIFT configuration in order to free up virtual device buttons ( 'Down' , used for 'Jettison All Cargo' was left alone)
+	* Layout PDF / full.md updated with changes
+	
 ### Version 2.1.0
 
 This change simply adds the _redux_ version of the map. No changes have been made to the _full_ map other than the location of the files and some fixes to the description.

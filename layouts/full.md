@@ -1,4 +1,4 @@
-# Elite: Dangerous - Full HOTAS layout (version 2.1.0)
+# Elite: Dangerous - Full HOTAS layout (version 2.1.0 - BH)
 
 This map introduces a new modifier button (the `alt` button), tightens up much of the grouping that was set in previous versions, and moves some button assignments around to facilitate this. 
 
@@ -228,7 +228,7 @@ UI Actions (`Btn 4`)      | Action
 Other Buttons             | Action
 ------------------------- | ------
 `Btn 1`                   | Not Used<sup>[3]</sup>
-`Btn 2`                   | _Disable Flight Assist_<sup>[4]</sup>
+`Btn 2`                   | _Disable Flight Assist / 75% Throttle (ALT)_<sup>[4][4A]</sup>
 `Btn 3`                   | `alt`<sup>[5]</sup>
 `shift` + `Btn 3`         | `shift` + `alt`<sup>[6]</sup>
 
@@ -237,6 +237,7 @@ Notes:
 > <sup>[2]</sup> Previously `Throttle Btn 3`<br/>
 > <sup>[3]</sup> _Jettison All Cargo_ is now `alt` + `shift` + `Throttle Hat 3 Down`<br/>
 > <sup>[4]</sup> Will disable flight assist as long as it's held<br/>
+> <sup>[4A]</sup> Modified from Dom's original layout to add additional functionality'<br/>
 > <sup>[5]</sup> _Galaxy Map_ is now `shift` + `Throttle Hat 2 Left`<br/>
 > <sup>[6]</sup> `ESC` is now `alt` + `Btn 4`<br/>
 
@@ -319,18 +320,19 @@ Notes:
 
 #### Wingmen (`Hat 3`)
 
-Direction | Action                           | Modified Action<sup>[1]</sup>
+Direction | Action                           | Modified Action<sup>[1][6]</sup>
 --------- | -------------------------------- | -----------------------------
 `Left`    | _Select Wingman 1_<sup>[2]</sup> | _Select Wingman 1_
 `Up`      | _Select Wingman 2_<sup>[3]</sup> | _Wingman Nav-Lock_<sup>[5]</sup>
 `Right`   | _Select Wingman 3_<sup>[4]</sup> | _Select Wingman 3_
 
 Notes:
-> <sup>[1]</sup> Actions work with `shift`, `alt`, and `shift` + `alt`<br/>
+> <sup>[1]</sup> Actions work with `shift`, `alt`<br/>
 > <sup>[2]</sup> Previously `shift` + `Throttle POV Left`<br/>
 > <sup>[3]</sup> Previously `shift` + `Throttle POV Up`<br/>
 > <sup>[4]</sup> Previously `shift` + `Throttle POV Right`<br/>
 > <sup>[5]</sup> PReviously `shift` + `Throttle POV Down`<br/>
+> <sup>[6]</sup> Previously `shift` + `alt` was defined for the whole hat. Up,Left,Right removed to provide functionality to Throttle Button 2
 
 #### Landing Gear and Cargo (`Hat 3`)
 
